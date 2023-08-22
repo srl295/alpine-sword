@@ -8,4 +8,4 @@ jobs:
         runs-on: ubuntu-latest
         steps:
         - uses: actions/checkout@v3
-        - run: docker build .
+        - run: docker build -t srl295/alpine-sword:latest .
